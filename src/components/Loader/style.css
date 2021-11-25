@@ -1,0 +1,28 @@
+.loader-overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-items: center;
+  display: none;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+.loader-overlay.is-active {
+  display: flex;
+}
+.loader-overlay.is-full-page {
+  z-index: 9999;
+  position: fixed;
+}
+.loader-background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: white;
+  opacity: 0.5;
+}

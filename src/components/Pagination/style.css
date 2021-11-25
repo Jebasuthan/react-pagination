@@ -1,0 +1,34 @@
+.pagination {
+  list-style-type: none;
+  float: right;
+  margin: 10px 0;
+}
+.pagination-item {
+  display: inline-block;
+  color: #ddd;
+}
+.pagination-item button {
+  text-decoration: none;
+  margin: 5px;
+  color: #2c3e50;
+}
+.pagination-item button.disabled {
+  color: #ccc;
+  cursor: no-drop;
+}
+.pagination-item .active {
+  background-color: tomato;
+  color: #ffffff !important;
+  font-weight: bold;
+  padding: 3px 8px;
+}
+.pagination-item button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font: inherit;
+  font-family: inherit;
+}
+button[disabled], html input[disabled] {
+  color: lightgray;
+}
