@@ -14,7 +14,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Features available in the applilcation:
+1. Individual components
+2. Loader added
+3. Pagination added
+4. No external libraries
+5. REST API implemented
+6. Pagination with records per page and goto page options
+
 ## Screenshots
 
 ### List with multiple pagination options
-<img width="1440" alt="Screenshot 2021-11-26 at 7 05 07 AM" src="https://user-images.githubusercontent.com/3702438/143513864-3fe4ec76-4d4f-41c1-98e5-9aaebc8ab5c6.png">
+
+![Screenshot](https://user-images.githubusercontent.com/3702438/143513864-3fe4ec76-4d4f-41c1-98e5-9aaebc8ab5c6.png)
+
+![Demo](https://user-images.githubusercontent.com/3702438/143514778-3641212f-65f3-4673-8c2f-1cbe30d13b6e.gif)
