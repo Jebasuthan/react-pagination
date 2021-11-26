@@ -13,11 +13,13 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://jebasuthan.github.io/react-pagination",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "sh deploy.sh"
   },
   "eslintConfig": {
     "extends": [
