@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-pagination/static/css/main.b2df1bd1.chunk.css",
-    "main.js": "/react-pagination/static/js/main.7ebad5d4.chunk.js",
-    "main.js.map": "/react-pagination/static/js/main.7ebad5d4.chunk.js.map",
+    "main.css": "/react-pagination/static/css/main.44f0a916.chunk.css",
+    "main.js": "/react-pagination/static/js/main.e8a7b19d.chunk.js",
+    "main.js.map": "/react-pagination/static/js/main.e8a7b19d.chunk.js.map",
     "runtime-main.js": "/react-pagination/static/js/runtime-main.3a71affc.js",
     "runtime-main.js.map": "/react-pagination/static/js/runtime-main.3a71affc.js.map",
     "static/js/2.75bafd8a.chunk.js": "/react-pagination/static/js/2.75bafd8a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.edebd179.chunk.js": "/react-pagination/static/js/3.edebd179.chunk.js",
     "static/js/3.edebd179.chunk.js.map": "/react-pagination/static/js/3.edebd179.chunk.js.map",
     "index.html": "/react-pagination/index.html",
-    "static/css/main.b2df1bd1.chunk.css.map": "/react-pagination/static/css/main.b2df1bd1.chunk.css.map",
+    "static/css/main.44f0a916.chunk.css.map": "/react-pagination/static/css/main.44f0a916.chunk.css.map",
     "static/js/2.75bafd8a.chunk.js.LICENSE.txt": "/react-pagination/static/js/2.75bafd8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3a71affc.js",
     "static/js/2.75bafd8a.chunk.js",
-    "static/css/main.b2df1bd1.chunk.css",
-    "static/js/main.7ebad5d4.chunk.js"
+    "static/css/main.44f0a916.chunk.css",
+    "static/js/main.e8a7b19d.chunk.js"
   ]
 }
