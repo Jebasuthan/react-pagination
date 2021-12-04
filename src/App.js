@@ -12,7 +12,6 @@ class App extends React.Component {
       listItems: [],
       page: 1,
       totalPages: 0,
-      totalRecords: 0,
       recordsPerPage: 10,
       enterpageno: ''
     }
@@ -26,9 +25,8 @@ class App extends React.Component {
     this.setState({ showLoader: true });
     axios.get(`${baseApiURL}/v1/passenger?page=${this.state.page}&size=${this.state.recordsPerPage}`)
       .then(response => {
-        console.log('response', response)
         const totalPages = Math.floor(response.data.totalPassengers / this.state.recordsPerPage) // Calculate total records
-        this.setState({ showLoader: false, listItems: response.data.data, totalPages: totalPages, totalRecords:  response.data.totalPassengers})
+        this.setState({ showLoader: false, listItems: response.data.data, totalPages: totalPages })
       })
   }
 
@@ -46,7 +44,6 @@ class App extends React.Component {
   }
 
   onPageChanged (page) {
-    console.log('onPageChanged', page)
     this.setState ({ page: page }, () => {
       this.loadListItem()
     })
